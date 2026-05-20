@@ -21,7 +21,7 @@ export default function TeamSection() {
     },
 
     {
-      image: "/Team/4.jpeg",
+      image: "/Team/4.jpg",
       name: "N.P.K.D.L.R. Nanayakkara",
       role: "HR Manager",
     },
