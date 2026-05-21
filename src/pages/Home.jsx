@@ -1,6 +1,5 @@
 import Hero from "../components/Hero";
 import ClientsSlider from "../components/ClientsSlider";
-import TeamSection from "../components/TeamSection";
 import ServiceModal from "../components/ServiceModal";
 
 import { useState } from "react";
@@ -16,9 +15,6 @@ export default function Home() {
 
       {/* HERO */}
       <Hero />
-
-      {/* CLIENTS */}
-      <ClientsSlider />
 
       {/* SERVICES */}
       <section className="py-20 bg-white dark:bg-slate-950">
@@ -211,6 +207,9 @@ export default function Home() {
 
       </section>
 
+      {/* CLIENTS */}
+      <ClientsSlider />
+
       {/* STATS */}
       <section className="py-20 bg-gradient-to-r from-blue-700 to-cyan-600 text-white">
 
@@ -287,9 +286,6 @@ export default function Home() {
         </div>
 
       </section>
-
-      {/* TEAM */}
-      <TeamSection />
 
       {/* CTA */}
       <section className="py-24 bg-slate-100 dark:bg-slate-900">

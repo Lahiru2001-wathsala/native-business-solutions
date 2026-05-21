@@ -7,8 +7,8 @@ export default function Loader() {
 
         {/* LOGO */}
         <img
-          src="/logo.jpeg"
-          alt="logo"
+          src="/Loading.jpeg"
+          alt="loading"
           className="w-32 h-32 rounded-full mx-auto mb-8 animate-pulse"
         />
 

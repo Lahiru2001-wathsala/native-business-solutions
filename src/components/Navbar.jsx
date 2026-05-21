@@ -62,8 +62,8 @@ export default function Navbar() {
         >
 
           <img
-            src="/logo.jpeg"
-            alt="logo"
+            src="/Loading.jpeg"
+            alt="loading"
             className="w-10 h-10 rounded-full"
           />
 
@@ -159,7 +159,7 @@ export default function Navbar() {
         {/* MOBILE BUTTON */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="hidden max-md:block text-2xl"
+          className="md:hidden text-2xl"
         >
 
           {menuOpen ? <FaTimes /> : <FaBars />}
@@ -171,7 +171,7 @@ export default function Navbar() {
       {/* MOBILE MENU */}
       {menuOpen && (
 
-        <div className="hidden max-md:flex bg-slate-900 px-6 py-6 flex-col gap-6">
+        <div className="md:hidden bg-slate-900 px-6 py-6 flex flex-col gap-6">
 
           <Link
             to="/"

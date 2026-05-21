@@ -58,8 +58,8 @@ export default function ClientsSlider() {
 
               {/* CIRCLE IMAGE */}
               <div className="
-                w-32
-                h-32
+                w-35
+                h-35
                 rounded-full
                 bg-white
                 flex
@@ -77,7 +77,7 @@ export default function ClientsSlider() {
                 <img
                   src={logo}
                   alt="client"
-                  className="w-20 h-20 object-contain"
+                  className="w-30 h-30 object-contain"
                 />
 
               </div>
